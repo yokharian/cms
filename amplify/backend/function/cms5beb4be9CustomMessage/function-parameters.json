@@ -1,0 +1,26 @@
+{
+  "trigger": true,
+  "modules": [
+    "verification-link"
+  ],
+  "parentResource": "cms5beb4be9",
+  "functionName": "cms5beb4be9CustomMessage",
+  "resourceName": "cms5beb4be9CustomMessage",
+  "parentStack": "auth",
+  "triggerEnvs": [
+    {
+      "key": "RESOURCENAME",
+      "value": "resourceName"
+    }
+  ],
+  "triggerDir": "C:\\snapshot\\repo\\build\\node_modules\\@aws-amplify\\amplify-category-auth\\provider-utils\\awscloudformation\\triggers\\CustomMessage",
+  "triggerTemplate": "CustomMessage.json.ejs",
+  "triggerEventPath": "CustomMessage.event.json",
+  "roleName": "cms5beb4be9CustomMessage",
+  "skipEdit": true,
+  "REDIRECTURL": "https://main.d1qz53iy52rf04.amplifyapp.com",
+  "EMAILSUBJECT": "Por favor confirme su correo electronico antes de continuar",
+  "EMAILMESSAGE": "Por favor haga click en el siguiente en lace que lo llevara a la pagina principal",
+  "RESOURCENAME": "resourceName",
+  "enableCors": false
+}

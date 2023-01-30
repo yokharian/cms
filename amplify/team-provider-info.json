@@ -9,7 +9,33 @@
       "UnauthRoleName": "amplify-cms-dev-205206-unauthRole",
       "StackName": "amplify-cms-dev-205206",
       "StackId": "arn:aws:cloudformation:us-east-1:373982843524:stack/amplify-cms-dev-205206/16b96920-a049-11ed-87f6-0acae31d779f",
-      "AmplifyAppId": "d1qz53iy52rf04"
+      "AmplifyAppId": "d1qz53iy52rf04",
+      "AuthTriggerTemplateURL": "https://s3.amazonaws.com/amplify-cms-dev-205206-deployment/amplify-cfn-templates/auth/auth-trigger-cloudformation-template.json"
+    },
+    "categories": {
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d1qz53iy52rf04",
+          "type": "cicd"
+        }
+      },
+      "auth": {
+        "cms5beb4be9": {}
+      },
+      "function": {
+        "cms5beb4be9CustomMessage": {
+          "REDIRECTURL": "https://main.d1qz53iy52rf04.amplifyapp.com",
+          "EMAILSUBJECT": "Por favor confirme su correo electronico antes de continuar",
+          "EMAILMESSAGE": "Por favor haga click en el siguiente en lace que lo llevara a la pagina principal",
+          "deploymentBucketName": "amplify-cms-dev-205206-deployment",
+          "s3Key": "amplify-builds/cms5beb4be9CustomMessage-566976327a7975625430-build.zip"
+        },
+        "cms5beb4be9PostConfirmation": {
+          "GROUP": "Editores",
+          "deploymentBucketName": "amplify-cms-dev-205206-deployment",
+          "s3Key": "amplify-builds/cms5beb4be9PostConfirmation-39524541612b50484870-build.zip"
+        }
+      }
     }
   }
 }
